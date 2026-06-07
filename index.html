@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">
+        <h2>📷 Photo Gallery</h2>
+    </div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Gallery</a></li>
+       <li><a href="about.html">About</a></li>
+        
+    </ul>
+</nav>
+
+<!-- Heading -->
+<section class="gallery-header">
+        <h1>Image <span class="gallery-text">Gallery</span></h1>
+        <p>Explore the world through my lens</p>
+    </section>
+
+<!-- Filter Buttons -->
+<section class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('animals')">Animals</button>
+  
+</section>
+
+<!-- Gallery -->
+<section class="gallery">
+
+       
+
+        <div class="card">
+            <img src="ff.jpeg" alt="">
+            <div class="info">
+                <h3>flowers</h3>
+                <p>nature</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="gh.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+ <div class="card animals">
+            <img src="cat.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+<div class="card animals">
+            <img src="mi.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+        <div class="card animals">
+            <img src="me.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+        <div class="card animals">
+            <img src="yy.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+        <div class="card animals">
+            <img src="yu.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+        <div class="card animals">
+            <img src="ct.jpeg" alt="">
+            <div class="info">
+                <h3>cat</h3>
+                <p>animals</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ki.jpeg" alt="">
+            <div class="info">
+                <h3>mountain</h3>
+                <p>nature</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="sd.jpeg" alt="">
+            <div class="info">
+                <h3>mountain</h3>
+                <p>nature</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Beautiful flowers.jpeg" alt="">
+            <div class="info">
+                <h3>Beautiful Flowers</h3>
+                <p>Nature</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Sunset Bloom.jpeg" alt="">
+            <div class="info">
+                <h3>Sunset Bloom</h3>
+                <p>Nature</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ii.jpeg" alt="">
+            <div class="info">
+                <h3>Ocean</h3>
+                <p>nature</p>
+            </div>
+        </div>
+<div class="card">
+            <img src="io.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="iop.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="fond d'écran.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="The beach.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+         <div class="card">
+            <img src="Beautiful sunrise and mountains - wallpaper.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="tt.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+         <div class="card">
+            <img src="Dark theme wallpaper.jpeg" alt="">
+            <div class="info">
+                <h3>beauty</h3>
+                <p>nature</p>
+            </div>
+        </div>
+    </section>
+<!-- Lightbox Modal -->
+<div id="lightbox">
+    <span id="close">&times;</span>
+
+    <button id="prev">&#10094;</button>
+
+    <img id="lightbox-img" src="" alt="">
+
+    <button id="next">&#10095;</button>
+</div>
+
+<!-- JS FILE -->
+<script src="function.js"></script>
+
+</body>
+</html>
